@@ -40,7 +40,7 @@ class MoviesController < ApplicationController
   
   def similar_movies
     movie = Movie.find(params[:movie_id])
-    @simililar_director_movies = Movie.simililar_director_movies(director: movie.director)
+    @simililar_director_movies = Movie.similar_director_movies(movie.title)
     
     if @simililar_director_movies.nil?
       flash[:warning] = "'#{movie.title}' has no director info"
