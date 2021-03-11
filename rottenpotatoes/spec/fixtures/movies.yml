@@ -1,0 +1,24 @@
+star_wars:
+  title: "Star Wars"
+  director: "George Lucas"
+  id: 79
+
+thx:
+  title: "THX-1138"
+  director: "George Lucas"
+  id: 80
+  
+steve_jobs:
+  title: "Steve Jobs"
+  director: ""
+  id: 67
+  
+intersellar:
+  title: "Interstellar"
+  director: "Christopher Nolan"
+  id: 32
+  
+blade_runner:
+  title: "Blade Runner"
+  director: "Ridley Scott"
+  id: 36
