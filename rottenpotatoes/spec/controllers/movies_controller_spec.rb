@@ -79,7 +79,7 @@ describe MoviesController, type: 'controller' do
     
         it 'should update the existing movie' do
             movies(:intersellar).reload
-            expect(movies(:intersellar).title).to eql('Blade Runner')
+            expect(movies(:intersellar).title).to eql('Blade')
         end
     
         it 'should redirect to the show template of the movie' do
