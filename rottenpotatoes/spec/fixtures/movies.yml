@@ -2,23 +2,28 @@ star_wars:
   title: "Star"
   director: "George"
   id: 1179
+  rating: 'G'
 
 thx:
   title: "THX"
   director: "George"
   id: 1180
+  rating: 'G'
   
 steve_jobs:
   title: "Steve Jobs"
   director: ""
   id: 1167
+  rating: 'R'
   
 intersellar:
   title: "Interstellar"
   director: "Christopher Nolan"
   id: 1132
+  rating: 'PG-13'
   
 blade_runner:
   title: "Blade"
   director: "Ridley"
   id: 1136
+  rating: 'PG'

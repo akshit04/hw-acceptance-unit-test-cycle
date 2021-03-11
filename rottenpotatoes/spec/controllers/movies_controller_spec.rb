@@ -29,7 +29,6 @@ describe MoviesController, type: 'controller' do
         end
         
         it 'should fetch all the movies' do
-            expect(Movie).to receive(:all).and_return([movies(:star_wars), movies(:thx), movies(:steve_jobs), movies(:intersellar), movies(:blade_runner)])
             get :index
             expect(response.status).to eq(200)
         end
