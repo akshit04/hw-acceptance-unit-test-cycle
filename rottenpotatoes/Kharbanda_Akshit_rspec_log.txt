@@ -1,6 +1,35 @@
-................
 
-Finished in 0.31848 seconds (files took 1.65 seconds to load)
+MoviesController
+  movie has a director
+    should respond to the similar_movies action
+    assigns similar movies to the template
+  movie does not have a director
+    should redirect to the index page on searching similar director movies
+  GET#index action
+    should render the template view corresponding to index action
+    should fetch all the movies
+  GET#new
+    should render the template view corresponding to new action
+  GET#show
+    should fetch the movie from the database
+    should render the template view corresponding to show action
+  GET#edit
+    should fetch the movie from the database
+    should render the template view corresponding to edit action
+  PUT#update
+    should update the existing movie
+    should redirect to the show template of the movie
+  DELETE#destroy
+    should destroy a movie
+    redirects to movies#index after destroy
+
+Movie
+  multiple movies by the same director
+    matches movies with the same director
+  single movie by that director
+    does not matches any other movies with the same director
+
+Finished in 0.31175 seconds (files took 1.63 seconds to load)
 16 examples, 0 failures
 
 Coverage report generated for Cucumber Features, RSpec to /home/ec2-user/environment/hw-acceptance-unit-test-cycle/rottenpotatoes/coverage. 55 / 59 LOC (93.22%) covered.
